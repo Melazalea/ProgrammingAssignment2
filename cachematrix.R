@@ -5,7 +5,7 @@
 
 
 ## makeCacheFunction returns a list to set the value of the matrix, get the value of the matrix, 
-## set the value of the inverse matrix and get the value of the inverse matrix
+## set the value of the inverse matrix and get the value of the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The cacheSolve function  checks if the inverse matrix has already been calculated.
 ##  If the inverse matrix is already calculated it returns the cached value.  Otherwise
-## it calculates the inverse matrix and sets the value in the cache via the setinverted function
+## it calculates the inverse matrix and sets the value in the cache via the setinverted function.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
